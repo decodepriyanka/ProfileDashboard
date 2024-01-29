@@ -8,6 +8,7 @@ import Profile from "./pages/Profile";
 import Dashboard from "./pages/Dashboard";
 import About from "./pages/About";
 import Qualification from "./pages/Qualification";
+import AddExperience from "./pages/AddExperience";
 
 const Layout = lazy(() => import("./common/Layout"));
 
@@ -36,6 +37,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/about" element={<About />} />
             <Route path="/qualification" element={<Qualification />} />
+            <Route path="/addExperience" element={<AddExperience />} />
           </Route>
         </Routes>
       )}

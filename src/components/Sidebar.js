@@ -142,7 +142,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                       fill=""
                     />
                   </svg>
-                  Profile
+                  My Profile
                 </NavLink>
               </li>
 
