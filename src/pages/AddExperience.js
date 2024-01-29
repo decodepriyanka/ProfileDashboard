@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const AddExperience = () => {
   return (
@@ -81,10 +82,12 @@ const AddExperience = () => {
             </div>
           </div>{" "}
           <div className="flex flex-row gap-4">
-            <button className="flex flex-1   rounded bg-primary p-3 font-medium text-gray">
-              Cancel
-            </button>
-            <button className="flex flex-1  rounded bg-primary p-3 font-medium text-gray">
+            <NavLink to="/">
+              <button className="rounded bg-primary p-3 font-medium text-gray">
+                Cancel
+              </button>
+            </NavLink>
+            <button className="rounded bg-primary p-3 font-medium text-gray">
               Save
             </button>
           </div>
